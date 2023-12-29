@@ -161,14 +161,14 @@ html {
 }
 /*Acomodar nuestros elementos de nuetro carrito de compras*/
 
-.lista_de_cursos {
+.lista_de_cursos div {
    display: none;
    text-align: center;
    padding: 10px 0 0 0;
    border-top: solid thin  gray;
 }
 
-.container nav i:hover  .buy-card > .lista_de_cursos {
+.container nav i:hover  .buy-card > .lista_de_cursos  div {
     display: flex;
 }
 
@@ -191,6 +191,8 @@ html {
     padding: 5px 10px;
     color: #fff;
 }
+
+
 
 
 
